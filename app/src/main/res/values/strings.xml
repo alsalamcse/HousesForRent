@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">"Houses For Rent "</string>
+    <string name="email">email</string>
+    <string name="Name">Name</string>
+    <string name="Pass">Pass</string>
+    <string name="repass">repass</string>
+    <string name="rentApartment">rentApartment</string>
+    <string name="RentYourHouse">RentYourHouse</string>
+    <string name="RentApartment">RentApartment</string>
+    <string name="Rentyourhouse">Rentyourhouse</string>
+    <string name="city">city</string>
+    <string name="City">City</string>
+    <string name="cost">cost</string>
+    <string name="people">people</string>
+    <string name="univardy">univardy</string>
+    <string name="adam">adam</string>
+    <string name="lisa" />
+    <string name="sam" />
+    <string name="alfred">lafred</string>
+</resources>
