@@ -8,10 +8,11 @@ import static com.awad.adam.housesforrent.R.string.Name;
 
 public class Product {
     private String house;
-    private double price;
-    private double amount;
+    private String price;
+    private String amount;
     private String email;
     private String fare;
+
     /**
      * if the product is bought.
      */
@@ -54,19 +55,19 @@ public class Product {
         this.fare = fare;
     }
 
-    public double getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
-    public double getAmount() {
+    public String getAmount() {
         return amount;
     }
 
-    public void setAmount(double amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
 
@@ -94,8 +95,12 @@ public class Product {
         this.keyId = keyId;
     }
 
-    public int getnName() {
+    public int getName() {
         return Name;
+    }
+
+    public void setName(int name) {
+        Name = name;
     }
 }
 

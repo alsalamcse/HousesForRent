@@ -43,7 +43,7 @@ public View getView (int postition, @Nullable View convertView, @Nullable ViewGr
 
         Product p=getItem(postition);
 
-        tvName.setText(p.getnName());
+        tvName.setText(p.getName());
         tvprice.setText(p.getPrice()+"");
         tvAmount.setText(p.getAmount()+"");
 
