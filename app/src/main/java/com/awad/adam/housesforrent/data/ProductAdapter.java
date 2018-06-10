@@ -35,7 +35,7 @@ public View getView (int postition, @Nullable View convertView, @Nullable ViewGr
 
         View view= LayoutInflater.from(getContext()).inflate(R.layout.productitem, parent,false);
 
-        TextView tvName=(TextView) view.findViewById(R.id.TvName);
+        //TextView tvName=(TextView) view.findViewById(R.id.tv);
         TextView tvprice=(TextView) view.findViewById(R.id.tvprice);
         TextView tvAmount= (TextView) view.findViewById(R.id.tvAmount);
 
