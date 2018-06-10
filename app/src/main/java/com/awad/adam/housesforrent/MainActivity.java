@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button signin;
     private Button signup;
     private FirebaseAuth Auth;
-    private FirebaseUser firebaseUser;
+    private FirebaseUser FirebaseUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         signin.setOnClickListener(this);
         signup.setOnClickListener(this);
         Auth=FirebaseAuth.getInstance();
-        firebaseUser=Auth.getCurrentUser();
+        FirebaseUser=Auth.getCurrentUser();
     }
 
 

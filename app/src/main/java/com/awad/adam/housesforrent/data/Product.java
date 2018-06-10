@@ -25,7 +25,7 @@ public class Product {
      * a special key or ID unique for each product (primary key)
      */
     private String keyId;
-    private int Name;
+//    private int Name;
 
 
     public Product() {
@@ -95,12 +95,12 @@ public class Product {
         this.keyId = keyId;
     }
 
-    public int getName() {
-        return Name;
-    }
-
-    public void setName(int name) {
-        Name = name;
-    }
+//    public int getName() {
+//        return Name;
+//    }
+//
+//    public void setName(String name) {
+//        Name = Name;
+//    }
 }
 

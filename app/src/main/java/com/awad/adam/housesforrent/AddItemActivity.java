@@ -88,11 +88,11 @@ public class AddItemActivity extends AppCompatActivity {
 
         Product p = new Product();
         p.setAmount(stAmount);
-        p.setName(stName);
+//        p.setName(stName);
         p.setPrice(stPrice);
 
 
-        FirebaseAuth auth = FirebaseAuth.getInstance().getInstance();
+        FirebaseAuth auth = FirebaseAuth.getInstance();
         FirebaseUser user = auth.getCurrentUser();
         String email = user.getEmail();
         email = email.replace('.', '*');

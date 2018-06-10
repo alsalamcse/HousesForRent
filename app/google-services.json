@@ -1,10 +1,59 @@
 {
   "project_info": {
-    "project_number": "171517951057",
-    "firebase_url": "https://housesforrent-9c9df.firebaseio.com",
-    "project_id": "housesforrent-9c9df",
-    "storage_bucket": "housesforrent-9c9df.appspot.com"
+    "project_number": "355456917571",
+    "firebase_url": "https://housesforrent-3ba65.firebaseio.com",
+    "project_id": "housesforrent-3ba65",
+    "storage_bucket": "housesforrent-3ba65.appspot.com"
   },
-  "client": [],
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355456917571:android:ee9ae3c4873d1b81",
+        "android_client_info": {
+          "package_name": "com.awad.adam.housesforrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355456917571-1ien5329dqlg6hrovor9qsmv88c82kep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awad.adam.housesforrent",
+            "certificate_hash": "013f43c9a5d380c46de43c04644418dbe5d2a253"
+          }
+        },
+        {
+          "client_id": "355456917571-qo9fptippii3ojut85cbh6pqdmftq6fh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "355456917571-qo9fptippii3ojut85cbh6pqdmftq6fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnWfjE0KfsNm5yP7U5tVdg9HzTVsxfpRs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355456917571-qo9fptippii3ojut85cbh6pqdmftq6fh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
   "configuration_version": "1"
 }

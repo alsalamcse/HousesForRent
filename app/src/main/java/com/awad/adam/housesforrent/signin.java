@@ -7,7 +7,6 @@ import android.widget.Button;
 public class signin extends AppCompatActivity {
     private Button  btnRentHouse;
     private Button btnRentyourhouse;
-    private Button btnmessage;
 
 
     @Override
@@ -18,7 +17,6 @@ public class signin extends AppCompatActivity {
 
         btnRentHouse=(Button)findViewById(R.id.btnRentHouse);
         btnRentyourhouse=(Button)findViewById(R.id.btnRentYourHouse);
-        btnmessage=(Button)findViewById(R.id.btnMessage);
 
     }
 }
