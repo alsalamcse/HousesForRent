@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بيوت للايجار</string>
+    <string name="City">مدينه</string>
+    <string name="Name">اسم</string>
+    <string name="adam">ادم</string>
+    <string name="alfred">الفريد</string>
+    <string name="city">مدينه</string>
+    <string name="cost">مبلغ</string>
+    <string name="email">بريد الكتروني</string>
+    <string name="lisa">ليزا</string>
+    <string name="people">اشخاص</string>
+    <string name="rentApartment">شقة للإيجار</string>
+    <string name="repass">اعاده كلمة السر</string>
+    <string name="sam">سام</string>
+    <string name="Pass">كلمة السر</string>
+    <string name="RentApartment">شقة للإيجار</string>
+    <string name="RentYourHouse">استئجار منزلك</string>
+    <string name="Rentyourhouse">استئجار منزلك</string>
+</resources>

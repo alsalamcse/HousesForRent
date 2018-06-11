@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="City">עיר</string>
+    <string name="Name">שם</string>
+    <string name="Pass">סיסמה</string>
+    <string name="RentYourHouse">לשכור את הבית שלך</string>
+    <string name="Rentyourhouse">לשכור את הבית שלך</string>
+    <string name="RentApartment">דירה להשכרה</string>
+    <string name="adam">אדם</string>
+    <string name="alfred">אלפריד</string>
+    <string name="city">להשכרה</string>
+    <string name="cost">ראה גם</string>
+    <string name="email">השכרה</string>
+    <string name="lisa">ליזא</string>
+    <string name="people">אנשים</string>
+    <string name="rentApartment">דירה להשכרה</string>
+    <string name="repass">איפוס סיסמה</string>
+    <string name="app_name">בתים להשכרה</string>
+    <string name="sam">סאם</string>
+</resources>

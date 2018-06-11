@@ -77,7 +77,10 @@ public class AddItemActivity extends AppCompatActivity {
         this.btnSave = btnSave;
     }
 
-    public void dataHandler() {
+    public void dataHandler()
+    {
+
+        }
 
         String stName = etName.getText().toString();
         String stAmount = etAmount.getText().toString();
@@ -87,8 +90,8 @@ public class AddItemActivity extends AppCompatActivity {
         double price = Double.parseDouble(stPrice);
 
         Product p = new Product();
-        p.setAmount(stAmount);
-//        p.setName(stName);
+        p.
+        p.setName(stName);
         p.setPrice(stPrice);
 
 
