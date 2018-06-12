@@ -37,6 +37,15 @@
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="197dp" />
 
+    <EditText
+        android:id="@+id/etEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="etEmail1"
+        android:inputType="textPersonName"
+        android:text="etEmail1" />
+
     <Button
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"

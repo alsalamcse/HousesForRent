@@ -21,8 +21,10 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Date;
 
+import static com.awad.adam.housesforrent.R.string.email;
+
 public class AddItemActivity extends AppCompatActivity {
-    private EditText etName, etAmount, etPrice;
+    private EditText etName, etAmount, etPrice, etEmail1;
     private Button btnSave;
 
 
@@ -33,6 +35,7 @@ public class AddItemActivity extends AppCompatActivity {
 
         etName = (EditText) findViewById(R.id.etName);
         etAmount = (EditText) findViewById(R.id.etAmount);
+        etEmail1 = (EditText) findViewById(R.id.etEmail1);
         etPrice = (EditText) findViewById(R.id.etPrice);
         btnSave = (Button) findViewById(R.id.btnSave);
 
@@ -69,6 +72,14 @@ public class AddItemActivity extends AppCompatActivity {
         this.etPrice = etPrice;
     }
 
+    public EditText getEtEmail() {
+        return etEmail1;
+    }
+
+    public void setEtEmail(EditText etEmail) {
+        this.etEmail1 = etEmail;
+    }
+
     public Button getBtnSave() {
         return btnSave;
     }
@@ -77,48 +88,22 @@ public class AddItemActivity extends AppCompatActivity {
         this.btnSave = btnSave;
     }
 
-    public void dataHandler()
-    {
-
-        }
-
+    public void dataHandler() {
         String stName = etName.getText().toString();
         String stAmount = etAmount.getText().toString();
         String stPrice = etPrice.getText().toString();
+        String etEmail = etEmail1.getText().toString();
 
         double amount = Double.parseDouble(stAmount);
         double price = Double.parseDouble(stPrice);
 
-        Product p = new Product();
-        p.
-        p.setName(stName);
-        p.setPrice(stPrice);
+    }
 
 
-        FirebaseAuth auth = FirebaseAuth.getInstance();
-        FirebaseUser user = auth.getCurrentUser();
-        String email = user.getEmail();
-        email = email.replace('.', '*');
-        DatabaseReference refernce;
-        refernce = FirebaseDatabase.getInstance().getReference();
-        p.setEmail(email);
-        String key = refernce.child("myList").push().getKey();
-        p.setKeyId(key);
-        refernce.child("myList").child(key).setValue(p).addOnCompleteListener(new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task) {
-                if (task.isSuccessful())
-                {
-                    Toast.makeText(AddItemActivity.this,"Add Product Successful",Toast.LENGTH_LONG).show();
-                    finish();
-                }
-                else
-                {
-                    Toast.makeText(AddItemActivity.this,"Add Product Faild",Toast.LENGTH_LONG).show();
-                }
+    {
 
-            }
-        });
 
     }
 }
+
+
